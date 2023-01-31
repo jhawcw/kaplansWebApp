@@ -1,0 +1,38 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+USE 'LINK' TAG FOR CONNECTING TO CSS
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.user-input {
+  display: inline-block;
+}
+
+th,
+td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  border-right: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color: #666;
+}
+
+tr:nth-child(1) {
+  background-color: #aaa;
+}

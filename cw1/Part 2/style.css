@@ -1,0 +1,33 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+PRIMARY COLOR: #dd7519
+- Tints (lighter): #fcf1e8 , #f8e3d1
+- Shades (darker): #c76917 
+- Accents(in between?):
+- Greys: #666666 , #333333
+SECONDARY COLOR: #DD191F
+ANALOGOUS COLOR: #DDD719
+
+USE 'LINK' TAG FOR CONNECTING TO CSS
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 9.6rem;
+  background-color: #f8e3d1;
+}

@@ -21,6 +21,19 @@ USE 'LINK' TAG FOR CONNECTING TO CSS
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f8e3d1;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+}
+
+th {
+  padding: 1.6rem 0.5rem 1.6rem 0.5rem;
+}
+
 .main {
   max-width: 130rem;
   margin: 0 auto;
@@ -28,6 +41,32 @@ USE 'LINK' TAG FOR CONNECTING TO CSS
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  gap: 9.6rem;
-  background-color: #f8e3d1;
+  gap: 1.6rem;
+}
+
+.gpa-table,
+.gpa-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gpa-table {
+  gap: 2rem;
+}
+
+th {
+  border-bottom: double 0.5rem #c76917;
+}
+
+thead {
+  border: double 0.5rem #c76917;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  line-height: 2;
 }

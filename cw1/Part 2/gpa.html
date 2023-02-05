@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main" id="main">
-      <table class="gpa-table" cellspacing="0">
-        <thead id="table-head">
-          <tr id="first-row">
-            <th>COURSE</th>
-            <th>GRADE</th>
-            <th>HOURS</th>
-          </tr>
-        </thead>
-      </table>
-      <p id="rawGPA"></p>
-      <p id="total-hours"></p>
-      <p id="GPA"></p>
-    </div>
+    <section class="report-container">
+      <div class="main" id="main">
+        <table class="gpa-table" cellspacing="0">
+          <thead id="table-head">
+            <tr id="first-row">
+              <th>COURSE</th>
+              <th>GRADE</th>
+              <th>HOURS</th>
+            </tr>
+          </thead>
+        </table>
+        <div class="gpa-result">
+          <p id="rawGPA"></p>
+          <p id="total-hours"></p>
+          <p id="GPA"></p>
+        </div>
+      </div>
+    </section>
   </body>
   <script src="index.js"></script>
 </html>

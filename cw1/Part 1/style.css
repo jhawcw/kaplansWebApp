@@ -13,26 +13,81 @@ USE 'LINK' TAG FOR CONNECTING TO CSS
   box-sizing: border-box;
 }
 
-.user-input {
-  display: inline-block;
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
 }
 
+html {
+  background-color: #fcf1e8;
+}
+
+.container {
+  /* 1140px */
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.user-input {
+  width: 100%;
+}
+
+.range {
+  display: block;
+  padding: 0 1.6rem;
+  width: 20rem;
+}
+
+/* .add-padding {
+  margin-right: rem; 
+} */
+
+.convertor-section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.box,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+h1 {
+  padding: 1.2rem 0 1.2rem 0;
+}
+
+.height-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 0 0.6rem 0;
+}
 th,
 td {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  border-top: 1px solid #422307;
+  border-bottom: 1px solid #422307;
+  border-left: 1px solid #422307;
+  line-height: 1.5;
+  padding: 0 1.2rem 0 1.2rem;
 }
 
 th:nth-child(3),
 td:nth-child(3) {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #422307;
+}
+
+tr {
+  text-align: center;
 }
 
 tr:nth-child(even) {
-  background-color: #666;
+  background-color: #ebac75;
 }
 
 tr:nth-child(1) {
-  background-color: #aaa;
+  background-color: #f5d6ba;
 }

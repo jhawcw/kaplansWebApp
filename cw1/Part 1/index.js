@@ -21,7 +21,7 @@ const convertToImperialLength = () => {
     maxHeight < 0 ||
     isNaN(interval) ||
     interval < 0 ||
-    minHeight > maxHeight
+    minHeight >= maxHeight
   ) {
     document.getElementById("height-display").innerHTML =
       "Type only numbers with positive value and minimum height should be smaller than max height";

@@ -5,49 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Let's Jiak</title>
+    <title>Height Convertor</title>
   </head>
   <body>
-    <h1>Height Convertor</h1>
+    <div class="container">
+      <h1>Height Convertor</h1>
 
-    <div>
-      Min range<input
-        type="text"
-        name=""
-        id="user-min-input"
-        class="user-input"
-      />
-      cm
-    </div>
+      <section class="convertor-section">
+        <div class="box">
+          <label class="range">Min range(cm)</label
+          ><input type="text" name="" id="user-min-input" class="user-input" />
+        </div>
 
-    <div>
-      Max range<input
-        type="text"
-        name=""
-        id="user-max-input"
-        class="user-input"
-      />
-      cm
-    </div>
+        <div class="box">
+          <label class="range">Max range(cm)</label
+          ><input type="text" name="" id="user-max-input" class="user-input" />
+        </div>
 
-    <div>
-      interval<input
-        type="text"
-        name=""
-        id="user-interval"
-        class="user-input"
-      />
-    </div>
+        <div class="box">
+          <label class="range add-padding">Interval</label
+          ><input type="text" name="" id="user-interval" class="user-input" />
+        </div>
 
-    <span
-      ><input
-        type="button"
-        value="Convert To Imperial"
-        id="convert-button"
-        class="button"
-    /></span>
-    <span class="height-display" id="height-display"></span>
-    <div>
+        <div class="box">
+          <label
+            ><input
+              type="button"
+              value="Convert To Imperial"
+              id="convert-button"
+              class="button"
+          /></label>
+        </div>
+      </section>
+      <span class="height-display" id="height-display"></span>
+
       <table class="height-table" cellspacing="0">
         <thead id="table-head">
           <tr id="first-row">
